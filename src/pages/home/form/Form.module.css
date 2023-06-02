@@ -1,0 +1,23 @@
+.container {
+  background-color: rgb(11, 11, 135);
+  padding: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.container input {
+  border: none;
+  padding: 15px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+
+.container button {
+  border: none;
+  padding: 15px;
+  margin-left: 1rem;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}

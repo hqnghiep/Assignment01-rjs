@@ -1,4 +1,6 @@
 import City from "./city/City";
+import Footer from "./footer/Footer";
+import Form from "./form/Form";
 import Header from "./header/Header";
 import HotelList from "./hotel_list/HotelList";
 import Navbar from "./navbar/Navbar";
@@ -12,6 +14,8 @@ const Home = () => {
       <City />
       <Type />
       <HotelList />
+      <Form />
+      <Footer />
     </div>
   );
 };
