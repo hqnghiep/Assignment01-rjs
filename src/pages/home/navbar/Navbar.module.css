@@ -1,0 +1,45 @@
+.background {
+  background-color: rgb(11, 11, 135);
+  width: 100%;
+  height: auto;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout h3 {
+  margin: 0;
+  padding: 1rem 0;
+  color: white;
+  cursor: pointer;
+}
+
+.layout button {
+  border: none;
+  color: blue;
+  margin: 0 0.5rem;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.layoutitem {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.type {
+  margin-right: 10px;
+}
+
+.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
