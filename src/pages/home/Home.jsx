@@ -1,6 +1,7 @@
 import City from "./city/City";
 import Header from "./header/Header";
 import Navbar from "./navbar/Navbar";
+import Type from "./type/Type";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Header />
       <City />
+      <Type />
     </div>
   );
 };
