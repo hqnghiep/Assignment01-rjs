@@ -25,7 +25,7 @@ const Header = () => {
           <button>Sign in/ Register</button>
         </div>
         <div className={classes.input}>
-          <label>
+          <label className={classes.mrl}>
             <FontAwesomeIcon icon={faBed} />{" "}
             <input type="text" placeholder="Where you are going?" />
           </label>

@@ -1,0 +1,27 @@
+.container {
+  margin-top: 3rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: flex-start;
+  column-gap: 0.7rem;
+}
+.layout img {
+  width: 100%;
+  height: 10rem;
+}
+
+.layout h3 {
+  margin-top: 0;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
