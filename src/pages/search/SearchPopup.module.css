@@ -1,0 +1,49 @@
+.backgrod {
+  background-color: orange;
+  border-radius: 8px;
+  margin: 3rem 0;
+  margin-right: 1rem;
+}
+
+.container {
+  padding: 0.5rem;
+}
+
+.container h3 {
+  margin: 0;
+}
+
+.container p {
+  margin-bottom: 0;
+}
+
+.container input {
+  width: auto;
+  border: none;
+  padding: 0.5rem 0;
+}
+
+.layoutmini {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layoutmini input {
+  width: 40px;
+  height: 20px !important;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+.layoutmini span {
+  color: rgb(85, 83, 83);
+}
+
+.btn {
+  border: none;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 0;
+  margin-top: 1rem;
+  cursor: pointer;
+}

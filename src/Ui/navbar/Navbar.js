@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../../Ui/Card";
+import Card from "../Card";
 
 import classes from "./Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -1,0 +1,86 @@
+.container {
+  margin-top: 3rem;
+}
+
+.borders {
+  border: 1px solid #333;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+}
+
+.layout {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  align-items: flex-start;
+}
+.layout img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.title {
+  padding: 0 0.5rem;
+}
+.title h3 {
+  margin: 0;
+  color: blue;
+}
+.title p {
+  margin: 10px 0;
+}
+.title h4 {
+  margin: 10px 0;
+}
+.title button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.cancel {
+  color: green;
+}
+
+.layoutmini {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.seeavai {
+  text-align: right;
+}
+.seeavai h2 {
+  font-weight: 500;
+  margin: 0;
+}
+.seeavai p {
+  margin: 10px 0;
+  color: #525050;
+}
+.seeavai button {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.excel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.excel p {
+  margin: 0;
+}
+
+.excel button {
+  background-color: rgb(8, 8, 112);
+  color: white;
+  border: none;
+  padding: 5px;
+}
