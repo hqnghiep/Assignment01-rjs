@@ -9,6 +9,7 @@ import {
   faCar,
   faTaxi,
 } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 const icons = { bed: faBed, plane: faPlane, car: faCar, taxi: faTaxi };
 const nabarItems = [
@@ -40,11 +41,13 @@ const nabarItems = [
 ];
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
     <div className={classes.background}>
       <Card>
         <div className={classes.layout}>
-          <h3>Booking Website</h3>
+          <h3 onClick={() => navigate("/")}>Booking Website</h3>
           <div>
             <button>Register</button>
             <button>Login</button>
