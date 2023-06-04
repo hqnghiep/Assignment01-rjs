@@ -31,8 +31,8 @@
   justify-content: flex-start;
   align-items: center;
   column-gap: 2rem;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
 }
 .type {
   margin-right: 10px;

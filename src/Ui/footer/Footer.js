@@ -66,7 +66,9 @@ const Footer = () => {
       {FOOTER_DUMMY.map((fot) => (
         <div key={fot.col_number} className={classes.layout}>
           {fot.col_values.map((val) => (
-            <Link to="#">{val}</Link>
+            <Link to="#" key={val}>
+              {val}
+            </Link>
           ))}
         </div>
       ))}

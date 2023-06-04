@@ -37,6 +37,11 @@
 
 .input input {
   border: none;
+  outline: none;
+}
+
+#inputDate {
+  cursor: pointer;
 }
 
 .input button {
@@ -51,3 +56,16 @@
 .mrl {
   margin-left: 15px;
 }
+
+.posisions {
+  position: relative;
+}
+
+/* .range {
+  width: 200px;
+  position: absolute;
+  top: 4.7rem;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+} */
