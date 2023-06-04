@@ -15,7 +15,7 @@ import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 
 import classes from "./Header.module.css";
-import "./DateRange.css";
+// import "./DateRange.css";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -28,7 +28,6 @@ const Header = () => {
     },
   ]);
 
-  console.log(range[0].startDate);
   // ẩn ,hiện lịch khi 'click'
   const isShowHandle = () => {
     setShowDate(!showDate);
@@ -83,12 +82,12 @@ const Header = () => {
           <div className={classes.range}>
             {showDate && (
               <DateRange
-                onChange={(item) => setRange([item.selection])}
                 editableDateInputs={true}
                 moveRangeOnFirstSelection={false}
+                className={classes.date}
+                minDate={new Date()}
+                onChange={(item) => setRange([item.selection])}
                 ranges={range}
-                // months={2}
-                direction="horizontal"
               />
             )}
           </div>
